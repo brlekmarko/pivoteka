@@ -90,6 +90,9 @@ CREATE TABLE narucio_pivo
 INSERT INTO korisnik(korisnicko_ime, lozinka, email, ime, prezime) VALUES 
 	('testkupac1', 'lozinka', 'testkupac@gmail.com', 'Test', 'Kupac'),
 	('testzaposlenik1', 'lozinka', 'testzaposlenik@pivoteka.hr', 'Test', 'Zaposlenik');
+	
+INSERT INTO vrsta(ime) VALUES
+	('Lager'), ('Radler'), ('Ale'), ('Tamno');
 
 INSERT INTO kupac(korisnicko_ime, adresa_dostave) VALUES ('testkupac1', 'Adresa Prvog Kupca 12a');
 INSERT INTO zaposlenik(korisnicko_ime, datum_zaposljenja, kraj_zaposlenja) VALUES ('testzaposlenik1', '2024-03-29', NULL);
@@ -99,9 +102,9 @@ INSERT INTO dobavljac(ime, adresa, email) VALUES
 	('Samo dobra piva', 'Ulica hrvatskih velikana 17', 'dobropivo@gmail.com');
 	
 
-INSERT INTO pivo(ime, cijena, količina, opis, zemlja_podrijetla, neto_volumen, ime_dobavljaca) VALUES
-	('Staropramen', 1.50, 100, 'Poznato pivo iz Češke', 'Češka', 500, 'Dobavljac Piva 1'),
-	('Guinness', 3, 20, 'Svi znate za Guinness', 'Irska', 333, 'Samo dobra piva');
+INSERT INTO pivo(ime, cijena, količina, opis, zemlja_podrijetla, neto_volumen, ime_dobavljaca, vrsta) VALUES
+	('Staropramen', 1.50, 100, 'Poznato pivo iz Češke', 'Češka', 500, 'Dobavljac Piva 1', 'Lager'),
+	('Guinness', 3, 20, 'Svi znate za Guinness', 'Irska', 333, 'Samo dobra piva', 'Tamno');
 
 INSERT INTO narudzba(id, datum, ukupna_cijena, korisnicko_ime) VALUES
 	(1, '2024-04-03', 6, 'testkupac1');
