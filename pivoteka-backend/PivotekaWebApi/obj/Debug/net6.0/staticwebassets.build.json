@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "OjO56KnZIPqjeHgyI7vBW+eHROBZP0XVGlv6bBthY+A=",
+  "Source": "PivotekaWebApi",
+  "BasePath": "_content/PivotekaWebApi",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
