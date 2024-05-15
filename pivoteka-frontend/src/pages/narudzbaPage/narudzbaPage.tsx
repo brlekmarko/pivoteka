@@ -31,7 +31,7 @@ export default function NarudzbaPage() {
             </div>
             <h1>Narudžba {narudzba?.id}</h1>
             <h2>Datum: {narudzba?.datum}</h2>
-            <h2>Ukupna cijena: {narudzba?.ukupna_cijena}</h2>
+            <h2>Ukupna cijena (€): {narudzba?.ukupna_cijena}</h2>
             <h2>Korisničko ime: {narudzba?.korisnicko_ime}</h2>
             <h2>Stavke:</h2>
             <ul>
