@@ -1,0 +1,12 @@
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Commons\bin\Debug\net6.0\Pivoteka.Commons.deps.json
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Commons\bin\Debug\net6.0\Pivoteka.Commons.dll
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Commons\bin\Debug\net6.0\Pivoteka.Commons.pdb
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Commons\obj\Debug\net6.0\Pivoteka.Commons.csproj.AssemblyReference.cache
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Commons\obj\Debug\net6.0\Pivoteka.Commons.GeneratedMSBuildEditorConfig.editorconfig
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Commons\obj\Debug\net6.0\Pivoteka.Commons.AssemblyInfoInputs.cache
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Commons\obj\Debug\net6.0\Pivoteka.Commons.AssemblyInfo.cs
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Commons\obj\Debug\net6.0\Pivoteka.Commons.csproj.CoreCompileInputs.cache
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Commons\obj\Debug\net6.0\Pivoteka.Commons.dll
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Commons\obj\Debug\net6.0\refint\Pivoteka.Commons.dll
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Commons\obj\Debug\net6.0\Pivoteka.Commons.pdb
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Commons\obj\Debug\net6.0\ref\Pivoteka.Commons.dll

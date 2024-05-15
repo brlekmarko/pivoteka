@@ -6,4 +6,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Pivoteka.Commons\Pivoteka.Commons.csproj" />
+    <ProjectReference Include="..\Pivoteka.DataAccess.PostgreSQL\Pivoteka.DataAccess.PostgreSQL.csproj" />
+    <ProjectReference Include="..\Pivoteka.Repositories\Pivoteka.Repositories.csproj" />
+  </ItemGroup>
+
 </Project>

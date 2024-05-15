@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Pivoteka.Repositories/1.0.0": {
+        "dependencies": {
+          "Pivoteka.Commons": "1.0.0"
+        },
+        "runtime": {
+          "Pivoteka.Repositories.dll": {}
+        }
+      },
+      "Pivoteka.Commons/1.0.0": {
+        "runtime": {
+          "Pivoteka.Commons.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Pivoteka.Repositories/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Pivoteka.Commons/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

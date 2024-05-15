@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Pivoteka.Commons/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Pivoteka.Commons.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Pivoteka.Commons.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Pivoteka.Commons/1.0.0": {
+      "type": "project",
+      "path": "../Pivoteka.Commons/Pivoteka.Commons.csproj",
+      "msbuildProject": "../Pivoteka.Commons/Pivoteka.Commons.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Pivoteka.Commons >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\lukas\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\Pivoteka.Commons.csproj": {
+              "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\Pivoteka.Commons.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
