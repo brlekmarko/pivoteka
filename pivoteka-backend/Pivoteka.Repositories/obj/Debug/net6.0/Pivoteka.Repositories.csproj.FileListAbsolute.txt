@@ -1,0 +1,15 @@
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories\bin\Debug\net6.0\Pivoteka.Repositories.deps.json
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories\bin\Debug\net6.0\Pivoteka.Repositories.dll
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories\bin\Debug\net6.0\Pivoteka.Repositories.pdb
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\net6.0\Pivoteka.Repositories.csproj.AssemblyReference.cache
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\net6.0\Pivoteka.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\net6.0\Pivoteka.Repositories.AssemblyInfoInputs.cache
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\net6.0\Pivoteka.Repositories.AssemblyInfo.cs
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\net6.0\Pivoteka.Repositories.csproj.CoreCompileInputs.cache
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\net6.0\Pivoteka.Repositories.dll
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\net6.0\refint\Pivoteka.Repositories.dll
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\net6.0\Pivoteka.Repositories.pdb
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\net6.0\ref\Pivoteka.Repositories.dll
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories\bin\Debug\net6.0\Pivoteka.Commons.dll
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories\bin\Debug\net6.0\Pivoteka.Commons.pdb
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\net6.0\Pivoteka.Repositories.csproj.CopyComplete

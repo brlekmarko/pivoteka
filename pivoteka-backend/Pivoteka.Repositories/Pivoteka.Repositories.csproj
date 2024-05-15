@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Pivoteka.Commons\Pivoteka.Commons.csproj" />
+  </ItemGroup>
+
 </Project>

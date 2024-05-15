@@ -7,7 +7,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.1">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.2" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pivoteka.Commons\Pivoteka.Commons.csproj" />
+    <ProjectReference Include="..\Pivoteka.DataAccess.PostgreSQL\Pivoteka.DataAccess.PostgreSQL.csproj" />
+    <ProjectReference Include="..\Pivoteka.Repositories.PostgreSQL\Pivoteka.Repositories.PostgreSQL.csproj" />
+    <ProjectReference Include="..\Pivoteka.Repositories\Pivoteka.Repositories.csproj" />
   </ItemGroup>
 
 </Project>

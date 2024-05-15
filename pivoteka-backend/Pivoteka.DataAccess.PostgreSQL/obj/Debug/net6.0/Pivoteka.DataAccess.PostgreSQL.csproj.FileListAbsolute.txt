@@ -1,0 +1,12 @@
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\bin\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.deps.json
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\bin\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.dll
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\bin\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.pdb
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\obj\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.csproj.AssemblyReference.cache
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\obj\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\obj\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.AssemblyInfoInputs.cache
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\obj\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.AssemblyInfo.cs
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\obj\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.csproj.CoreCompileInputs.cache
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\obj\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.dll
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\obj\Debug\net6.0\refint\Pivoteka.DataAccess.PostgreSQL.dll
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\obj\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.pdb
+C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\obj\Debug\net6.0\ref\Pivoteka.DataAccess.PostgreSQL.dll
