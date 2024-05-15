@@ -1,0 +1,14 @@
+.pivo-forma{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pivo-forma div{
+    margin: 10px;
+}
+
+.pivo-forma label{
+    margin-left: 10px;
+    margin-right: 10px;
+}
