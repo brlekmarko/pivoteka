@@ -1,8 +1,8 @@
 import { Pivo } from "./Pivo";
 
 export interface StavkaNarudzbe {
-    id: number;
+    id_narudzbe: number;
+    ime_piva: string;
     kolicina: number;
-    pivo: Pivo;
     cijena_piva: number;
 }

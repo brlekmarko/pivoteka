@@ -22,6 +22,11 @@ export const azurirajPivo = async (pivo: Pivo) => {
     await axios.put(`${endpoint}/piva/${pivo.ime}`, pivo);
 }
 
+export const dohvatiSveDobavljace = async () : Promise<string[]> => {
+    const response = await axios.get(`${endpoint}/dobavljaci`);
+    return response.data as string[];
+}
+
 
 
 

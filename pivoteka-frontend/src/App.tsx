@@ -1,5 +1,10 @@
 import './App.css';
 import { Routes, Route } from 'react-router-dom';
+import HomePage from './pages/homePage/homePage';
+import SvaPivaPage from './pages/svaPivaPage/svaPivaPage';
+import SveNarudzbePage from './pages/sveNarudzbePage/sveNarudzbePage';
+import PivoPage from './pages/pivoPage/pivoPage';
+import NarudzbaPage from './pages/narudzbaPage/narudzbaPage';
 
 function App() {
   return (

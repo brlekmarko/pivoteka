@@ -1,0 +1,169 @@
+GET /piva - vraca sva piva
+
+response:
+[
+	{
+		ime: "Staropramen",
+		cijena: 3,
+		kolicina: 100,
+		opis: "Turbo dobro pivo",
+		zemlja_podrijetla: "Češka",
+		neto_volumen: 500,
+		ime_dobavljaca: "Turbo dobar dobavljač",
+		vrsta: "Lager"
+	},
+	{
+		ime: "Staropramen 2",
+		cijena: 32,
+		kolicina: 1002,
+		opis: "Turbo dobro pivo2",
+		zemlja_podrijetla: "Češka2",
+		neto_volumen: 5002,
+		ime_dobavljaca: "Turbo dobar dobavljač2",
+		vrsta: "Lager2"
+	}
+]
+
+
+
+
+GET /piva/:ime - vraca pivo s tim imenom, npr /piva/staropramen
+
+response:
+{
+	ime: "Staropramen",
+	cijena: 3,
+	kolicina: 100,
+	opis: "Turbo dobro pivo",
+	zemlja_podrijetla: "Češka",
+	neto_volumen: 500,
+	ime_dobavljaca: "Turbo dobar dobavljač",
+	vrsta: "Lager"
+}
+
+
+
+
+POST /piva - kreira novo pivo
+
+{
+	ime: "Staropramen 2",
+	cijena: 32,
+	kolicina: 1002,
+	opis: "Turbo dobro pivo2",
+	zemlja_podrijetla: "Češka2",
+	neto_volumen: 5002,
+	ime_dobavljaca: "Turbo dobar dobavljač2",
+	vrsta: "Lager2"
+}
+
+response: OK
+
+
+
+
+PUT /piva/:ime - updatea pivo s tim imenom
+
+{
+	ime: "Staropramen 2",
+	cijena: 32,
+	kolicina: 1002,
+	opis: "Turbo dobro pivo2",
+	zemlja_podrijetla: "Češka2",
+	neto_volumen: 5002,
+	ime_dobavljaca: "Turbo dobar dobavljač2",
+	vrsta: "Lager2"
+}
+
+response: OK
+
+
+
+DELETE /piva/:ime - briše pivu s tim imenom, npr /piva/staropramen, automatski brise i sve narudzbe i stavke narudzbe za tu pivu
+response: OK
+
+
+
+GET /dobavljaci - dohvaca imena svih dobavljaca
+response: ["Prvi dobavljac", "Drugi dobavljac"]
+
+
+
+
+
+
+GET /narudzbe - dohvaca sve narudzbe
+
+response:
+
+[
+	{
+		id: 1
+		datum: "5/15/2024",
+		ukupna_cijena: 100,
+		korisnicko_ime: "filip_siktar",
+		stavke: [
+				{
+					ime_piva: "Staropramen",
+					id_narudzbe: 1,
+					kolicina: 7,
+					cijena_piva: 3
+				},
+				{
+					ime_piva: "Staropramen2",
+					id_narudzbe: 1,
+					kolicina: 72,
+					cijena_piva: 32
+				},
+			]
+	},
+
+	{
+		id: 2
+		datum: "5/15/2024",
+		ukupna_cijena: 120,
+		korisnicko_ime: "filip_siktar2",
+		stavke: [
+				{
+					ime_piva: "Staropramen",
+					id_narudzbe: 2,
+					kolicina: 7,
+					cijena_piva: 3
+				},
+				{
+					ime_piva: "Staropramen2",
+					id_narudzbe: 2,
+					kolicina: 72,
+					cijena_piva: 32
+				},
+			]
+	}
+]
+
+
+
+POST /narudzbe - kreira novu narudzbu, -1 vrijednosti se racunaju na posluzitelju
+
+	{
+		id: -1
+		datum: "-1",
+		ukupna_cijena: -1,
+		korisnicko_ime: "filip_siktar2",
+		stavke: [
+				{
+					ime_piva: "Staropramen",
+					id_narudzbe: -1,
+					kolicina: 7,
+					cijena_piva: -1
+				},
+				{
+					ime_piva: "Staropramen2",
+					id_narudzbe: -1,
+					kolicina: 72,
+					cijena_piva: -1
+				},
+			]
+	}
+ 
+
+DELETE /narudzbe/:id - brise narudzbu i sve njene stavke, npr /narudzbe/1

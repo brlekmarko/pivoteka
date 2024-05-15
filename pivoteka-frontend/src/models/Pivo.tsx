@@ -6,4 +6,5 @@ export interface Pivo{
     zemlja_podrijetla: string;
     neto_volumen: number;
     ime_dobavljaca: string;
+    vrsta: string;
 }
