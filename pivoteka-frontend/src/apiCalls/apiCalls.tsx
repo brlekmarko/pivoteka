@@ -80,9 +80,57 @@ export const dohvatiSveDobavljace = async () : Promise<string[]> => {
 
 
 
-export const dohvatiSveNarudzbe = async () : Promise<Narudzba> => {
-    const response = await axios.get(`${endpoint}/narudzbe`);
-    return response.data as Narudzba;
+export const dohvatiSveNarudzbe = async () : Promise<Narudzba[]> => {
+    //const response = await axios.get(`${endpoint}/narudzbe`);
+    //return response.data as Narudzba[];
+    return [
+        {
+            id: 1,
+            datum: new Date().toISOString(),
+            ukupna_cijena: 100,
+            korisnicko_ime: 'testuser',
+            stavke: [
+                {
+                    id_narudzbe: 1,
+                    ime_piva: 'Karlovacko',
+                    cijena_piva: 10,
+                    kolicina: 10
+                },
+                {
+                    id_narudzbe: 1,
+                    ime_piva: 'Ozujsko',
+                    cijena_piva: 12,
+                    kolicina: 5
+                }
+            ]
+        }
+    ]
+}
+
+
+export const dohvatiNarudzbu = async (id: number) : Promise<Narudzba> => {
+    //const response = await axios.get(`${endpoint}/narudzbe/${id}`);
+    //return response.data as Narudzba;
+    return {
+        id: 1,
+        datum: new Date().toISOString(),
+        ukupna_cijena: 100,
+        korisnicko_ime: 'testuser',
+        stavke: [
+            {
+                id_narudzbe: 1,
+                ime_piva: 'Karlovacko',
+                cijena_piva: 10,
+                kolicina: 10
+            },
+            {
+                id_narudzbe: 1,
+                ime_piva: 'Ozujsko',
+                cijena_piva: 12,
+                kolicina: 5
+            }
+        ]
+    }
 }
 
 export const dodajNovuNarudzbu = async (narudzba: Narudzba) => {

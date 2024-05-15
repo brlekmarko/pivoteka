@@ -70,7 +70,7 @@ function App() {
       <header className="App-header">
         <a href={"/"}>Home</a>
         <a href={"/piva"}>Piva</a>
-        <a href={"/narudzbe"}>Narudzbe</a>
+        <a href={"/narudzbe"}>Narudžbe</a>
         <BsCart4 className="cartIcon" onClick={() => setKosarica(true)}></BsCart4>
         <Dialog header="Košarica" visible={kosarica} onHide={() => {setKosarica(false)}}>
           {generateCart()}
