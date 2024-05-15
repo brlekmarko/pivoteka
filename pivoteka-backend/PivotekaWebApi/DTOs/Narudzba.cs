@@ -30,7 +30,7 @@ public static partial class DtoMapping
         => new DbModels.Narudzba()
         {
             Id = narudzba.Id,
-            Datum = narudzba.Datum,
+            Datum = narudzba.Datum.ToUniversalTime(),
             UkupnaCijena = narudzba.UkupnaCijena,
             KorisnickoIme = narudzba.KorisnickoIme
         };

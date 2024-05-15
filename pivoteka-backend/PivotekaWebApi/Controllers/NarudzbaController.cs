@@ -25,6 +25,14 @@ public class NarudzbaController : ControllerBase
         return Ok(_narudzbaRepository.GetAll().Select(DtoMapping.ToDto));
     }
 
+    // GET: api/Narudzba/aggregate
+    [HttpGet("Aggregates")]
+    public ActionResult<IEnumerable<NarudzbaAggregate>> GetAllNarudzbaAggregate()
+    {
+        return Ok(_narudzbaRepository.GetAllAggregates().Select(DtoMapping.ToAggregateDto));
+    }
+
+
     // GET: api/Narudzba/5
     [HttpGet("{id}")]
     public ActionResult<Narudzba> GetNarudzba(int id)
@@ -61,6 +69,27 @@ public class NarudzbaController : ControllerBase
             : StatusCode(500);
     }
 
+    // PUT: api/Narudzba/Aggregate/5
+    [HttpPut("Aggregate/{id}")]
+    public IActionResult EditNarudzbaAggregate(int id, NarudzbaAggregate narudzba)
+    {
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
+        if (id != narudzba.Id)
+        {
+            return BadRequest();
+        }
+        if (!_narudzbaRepository.Exists(id))
+        {
+            return NotFound();
+        }
+        return _narudzbaRepository.UpdateAggregate(narudzba.ToDbModel())
+            ? AcceptedAtAction("EditNarudzbaAggregate", narudzba)
+            : StatusCode(500);
+    }   
+
     // POST: api/Narudzba
     // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkime=2123754
     [HttpPost]
@@ -75,6 +104,20 @@ public class NarudzbaController : ControllerBase
             ? CreatedAtAction("GetNarudzba", new { id = narudzba.Id }, narudzba)
             : StatusCode(500);
     }
+
+    // POST: api/Narudzba/Aggreagate
+    [HttpPost("Aggreagate")]
+    public ActionResult<NarudzbaAggregate> CreateNarudzbaAggregate(NarudzbaAggregate narudzba)
+    {
+        if (!ModelState.IsValid)
+        {
+            return BadRequest(ModelState);
+        }
+        return _narudzbaRepository.InsertAggregate(narudzba.ToDbModel())
+            ? CreatedAtAction("GetNarudzba", new { id = narudzba.Id }, narudzba)
+            : StatusCode(500);
+    }
+
 
     // DELETE: api/Narudzba/5
     [HttpDelete("{id}")]

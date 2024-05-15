@@ -86,6 +86,19 @@ public class NarudzbaRepository : INarudzbaRepository<int, Narudzba>
         return false;
     }
 
+    public bool InsertAggregate(Narudzba model)
+    {
+        if (_dbContext.Narudzba.Add(model).State == Microsoft.EntityFrameworkCore.EntityState.Added)
+        {
+            var isSuccess = _dbContext.SaveChanges() > 0;
+            // every Add attaches the entity object and EF begins tracking
+            // we detach the entity object from tracking, because this can cause problems when a repo is not set as a transient service
+            _dbContext.Entry(model).State = Microsoft.EntityFrameworkCore.EntityState.Detached;
+            return isSuccess;
+        }
+        return false;
+    }
+
     public bool Remove(int id)
     {
         var model = _dbContext.Narudzba

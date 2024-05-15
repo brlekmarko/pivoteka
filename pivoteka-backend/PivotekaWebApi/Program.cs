@@ -14,6 +14,7 @@ builder.Services.AddTransient<IPivoRepository<string, Pivo>, PivoRepository>();
 builder.Services.AddTransient<INarudzbaRepository<int, Narudzba>, NarudzbaRepository>();
 builder.Services.AddTransient<IKorisnikRepository<string, Korisnik>, KorisnikRepository>();
 builder.Services.AddTransient<IVrstumRepository<string, Vrstum>, VrstumRepository>();
+builder.Services.AddTransient<IDobavljacRepository<string, Dobavljac>, DobavljacRepository>();
 
 
 builder.Services.AddControllers();

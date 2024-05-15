@@ -10,17 +10,17 @@ public class Pivo
     [StringLength(50, ErrorMessage = "Name can't be longer than 64 characters")]
     public string Ime { get; set; } = string.Empty;
     public decimal Cijena { get; set; }
-    public int Količina { get; set; }
+    public int Kolicina { get; set; }
     public string Opis { get; set; } = null!;
 
     [Required(ErrorMessage = "Zemlja podrijetla can't be null")]
     [StringLength(50, ErrorMessage = "Zemlja podrijetla  can't be longer than 64 characters")]
-    public string ZemljaPodrijetla { get; set; } = null!;
+    public string Zemlja_Podrijetla { get; set; } = null!;
     public int NetoVolumen { get; set; }
 
     [Required(ErrorMessage = "Dobavljac name can't be null")]
     [StringLength(50, ErrorMessage = "Dobavaljac name can't be longer than 64 characters")]
-    public string ImeDobavljaca { get; set; } = null!;
+    public string Ime_Dobavljaca { get; set; } = null!;
     public string Vrsta { get; set; } = null!;
 }
 
@@ -32,11 +32,11 @@ public static partial class DtoMapping
         {
             Ime = pivo.Ime,
             Cijena = pivo.Cijena,
-            Količina = pivo.Količina,
+            Kolicina = pivo.Količina,
             Opis = pivo.Opis,
-            ZemljaPodrijetla = pivo.ZemljaPodrijetla,
+            Zemlja_Podrijetla = pivo.ZemljaPodrijetla,
             NetoVolumen = pivo.NetoVolumen,
-            ImeDobavljaca = pivo.ImeDobavljaca,
+            Ime_Dobavljaca = pivo.ImeDobavljaca,
             Vrsta = pivo.Vrsta
 
         };
@@ -46,11 +46,11 @@ public static partial class DtoMapping
         {
             Ime = pivo.Ime,
             Cijena = pivo.Cijena,
-            Količina = pivo.Količina,
+            Količina = pivo.Kolicina,
             Opis = pivo.Opis,
-            ZemljaPodrijetla = pivo.ZemljaPodrijetla,
+            ZemljaPodrijetla = pivo.Zemlja_Podrijetla,
             NetoVolumen = pivo.NetoVolumen,
-            ImeDobavljaca = pivo.ImeDobavljaca,
+            ImeDobavljaca = pivo.Ime_Dobavljaca,
             Vrsta = pivo.Vrsta
         };
 }
