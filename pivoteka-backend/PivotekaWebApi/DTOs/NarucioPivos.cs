@@ -17,7 +17,7 @@ public static partial class DtoMapping
     public static NarucioPivo ToDto(this DbModels.NarucioPivo narucioPivo)
         => new NarucioPivo()
         {
-            Kolicina = narucioPivo.Količina,
+            Kolicina = narucioPivo.Kolicina,
             Cijena_piva = narucioPivo.CijenaPiva,
             Ime_piva = narucioPivo.ImePiva,
             Id_narudzbe = narucioPivo.IdNarudzbe
@@ -26,7 +26,7 @@ public static partial class DtoMapping
     public static DbModels.NarucioPivo ToDbModel(this NarucioPivo narucioPivo)
         => new DbModels.NarucioPivo()
         {
-            Količina = narucioPivo.Kolicina,
+            Kolicina = narucioPivo.Kolicina,
             CijenaPiva = narucioPivo.Cijena_piva,
             ImePiva = narucioPivo.Ime_piva,
             IdNarudzbe = narucioPivo.Id_narudzbe

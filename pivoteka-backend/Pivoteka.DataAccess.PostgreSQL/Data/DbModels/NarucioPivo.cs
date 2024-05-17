@@ -5,7 +5,7 @@ namespace Pivoteka.DataAccess.PostgreSQL.Data.DbModels
 {
     public partial class NarucioPivo
     {
-        public int Količina { get; set; }
+        public int Kolicina { get; set; }
         public decimal CijenaPiva { get; set; }
         public string ImePiva { get; set; } = null!;
         public int IdNarudzbe { get; set; }

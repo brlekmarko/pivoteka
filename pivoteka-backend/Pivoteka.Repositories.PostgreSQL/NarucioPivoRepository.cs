@@ -21,7 +21,7 @@ public class NarucioPivoRepository : INarucioPivoRepository<int, NarucioPivo>
             var inventory = _dbContext.Set<Pivo>()
                 .FirstOrDefault(p => p.Ime == stavka.ImePiva);
 
-            if (inventory == null || inventory.Količina < stavka.Količina)
+            if (inventory == null || inventory.Kolicina < stavka.Kolicina)
             {
                 return false; // Not enough inventory
             }
@@ -40,11 +40,11 @@ public class NarucioPivoRepository : INarucioPivoRepository<int, NarucioPivo>
             {
                 return false; // Item not found
             }
-            if (stanje.Količina - stavka.Količina < 0)
+            if (stanje.Kolicina - stavka.Kolicina < 0)
             {
                 return false; // Not enough inventory
             }
-            stanje.Količina -= stavka.Količina;
+            stanje.Kolicina -= stavka.Kolicina;
             _dbContext.Entry(stanje).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
             isSuccess = _dbContext.SaveChanges() > 0;
             

@@ -104,7 +104,6 @@ namespace Pivoteka.DataAccess.PostgreSQL.Data
                 entity.HasOne(d => d.KorisnickoImeNavigation)
                     .WithOne(p => p.Kupac)
                     .HasForeignKey<Kupac>(d => d.KorisnickoIme)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("kupac_korisnicko_ime_fkey");
             });
 
@@ -125,18 +124,16 @@ namespace Pivoteka.DataAccess.PostgreSQL.Data
                     .HasPrecision(8, 2)
                     .HasColumnName("cijena_piva");
 
-                entity.Property(e => e.Količina).HasColumnName("količina");
+                entity.Property(e => e.Kolicina).HasColumnName("kolicina");
 
                 entity.HasOne(d => d.IdNarudzbeNavigation)
                     .WithMany(p => p.NarucioPivos)
                     .HasForeignKey(d => d.IdNarudzbe)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("narucio_pivo_id_narudzbe_fkey");
 
                 entity.HasOne(d => d.ImePivaNavigation)
                     .WithMany(p => p.NarucioPivos)
                     .HasForeignKey(d => d.ImePiva)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("narucio_pivo_ime_piva_fkey");
             });
 
@@ -144,9 +141,7 @@ namespace Pivoteka.DataAccess.PostgreSQL.Data
             {
                 entity.ToTable("narudzba");
 
-                entity.Property(e => e.Id)
-                    .ValueGeneratedNever()
-                    .HasColumnName("id");
+                entity.Property(e => e.Id).HasColumnName("id");
 
                 entity.Property(e => e.Datum).HasColumnName("datum");
 
@@ -161,7 +156,6 @@ namespace Pivoteka.DataAccess.PostgreSQL.Data
                 entity.HasOne(d => d.KorisnickoImeNavigation)
                     .WithMany(p => p.Narudzbas)
                     .HasForeignKey(d => d.KorisnickoIme)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("narudzba_korisnicko_ime_fkey");
             });
 
@@ -218,7 +212,7 @@ namespace Pivoteka.DataAccess.PostgreSQL.Data
                     .HasMaxLength(64)
                     .HasColumnName("ime_dobavljaca");
 
-                entity.Property(e => e.Količina).HasColumnName("količina");
+                entity.Property(e => e.Kolicina).HasColumnName("kolicina");
 
                 entity.Property(e => e.NetoVolumen).HasColumnName("neto_volumen");
 
@@ -237,7 +231,6 @@ namespace Pivoteka.DataAccess.PostgreSQL.Data
                 entity.HasOne(d => d.ImeDobavljacaNavigation)
                     .WithMany(p => p.Pivos)
                     .HasForeignKey(d => d.ImeDobavljaca)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
                     .HasConstraintName("pivo_ime_dobavljaca_fkey");
 
                 entity.HasOne(d => d.VrstaNavigation)

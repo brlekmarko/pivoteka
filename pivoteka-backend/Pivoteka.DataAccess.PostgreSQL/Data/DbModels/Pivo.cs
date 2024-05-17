@@ -13,7 +13,7 @@ namespace Pivoteka.DataAccess.PostgreSQL.Data.DbModels
 
         public string Ime { get; set; } = null!;
         public decimal Cijena { get; set; }
-        public int Količina { get; set; }
+        public int Kolicina { get; set; }
         public string Opis { get; set; } = null!;
         public string ZemljaPodrijetla { get; set; } = null!;
         public int NetoVolumen { get; set; }
