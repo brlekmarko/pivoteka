@@ -29,22 +29,28 @@ export default function NarudzbaPage() {
             <div className="buttons">
                 <Button label="Obriši" onClick={izbrisiNarudzbu} />
             </div>
-            <h1>Narudžba {narudzba?.id}</h1>
-            <h2>Datum: {narudzba?.datum}</h2>
-            <h2>Ukupna cijena (€): {narudzba?.ukupna_cijena}</h2>
-            <h2>Korisničko ime: {narudzba?.korisnicko_ime}</h2>
-            <h2>Stavke:</h2>
-            <ul>
-                {narudzba?.stavke.map((stavka, index) => {
-                    return (
-                        <li key={index}>
-                            <h3>Ime: {stavka.ime_piva}</h3>
-                            <h3>Količina: {stavka.kolicina}</h3>
-                            <h3>Cijena(€): {stavka.cijena_piva}</h3>
-                        </li>
-                    )
-                })}
-            </ul>
+            <div className="narudzba">
+                <div className="narudzbaInfo">
+                    <h1>Narudžba {narudzba?.id}</h1>
+                    <h2>Datum: {narudzba?.datum.split('T')[0]}</h2>
+                    <h2>Ukupna cijena (€): {narudzba?.ukupna_cijena}</h2>
+                    <h2>Korisničko ime: {narudzba?.korisnicko_ime}</h2>
+                </div>
+                <div className="narudzbaStavke">
+                    <h2>Stavke:</h2>
+                    <ul>
+                        {narudzba?.stavke.map((stavka, index) => {
+                            return (
+                                <li key={index}>
+                                    <h3>Ime: {stavka.ime_piva}</h3>
+                                    <h3>Količina: {stavka.kolicina}</h3>
+                                    <h3>Cijena(€): {stavka.cijena_piva}</h3>
+                                </li>
+                            )
+                        })}
+                    </ul>
+                </div>
+            </div>
         </div>
     );
 }
