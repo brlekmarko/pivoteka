@@ -12,10 +12,13 @@ namespace ExampleWebApi.Controllers;
 public class NarudzbaController : ControllerBase
 {
     private readonly INarudzbaRepository<int, DbModels.Narudzba> _narudzbaRepository;
+    private readonly INarucioPivoRepository<int, DbModels.NarucioPivo> _narucioPivoRepository;
 
-    public NarudzbaController(INarudzbaRepository<int, DbModels.Narudzba> narudzbaRepository)
+    public NarudzbaController(INarudzbaRepository<int, DbModels.Narudzba> narudzbaRepository,
+        INarucioPivoRepository<int, DbModels.NarucioPivo> narucioPivoRepository)
     {
         _narudzbaRepository = narudzbaRepository;
+        _narucioPivoRepository = narucioPivoRepository;
     }
 
     // GET: api/Narudzba
@@ -85,9 +88,17 @@ public class NarudzbaController : ControllerBase
         {
             return NotFound();
         }
-        return _narudzbaRepository.UpdateAggregate(narudzba.ToDbModel())
-            ? AcceptedAtAction("EditNarudzbaAggregate", narudzba)
-            : StatusCode(500);
+        if (!_narucioPivoRepository.CheckAmount(narudzba.Stavke.Select(ns => ns.ToDbModel()).ToList()))
+        {
+            return BadRequest("Nema dovoljno piva na stanju");
+        }
+
+        if (_narudzbaRepository.UpdateAggregate(narudzba.ToDbModel()))
+        {
+            if(_narucioPivoRepository.ReduceAmount(narudzba.Stavke.Select(ns => ns.ToDbModel()).ToList()))
+                return AcceptedAtAction("EditNarudzbaAggregate", narudzba);
+        }
+        return StatusCode(500);
     }   
 
     // POST: api/Narudzba
@@ -113,9 +124,18 @@ public class NarudzbaController : ControllerBase
         {
             return BadRequest(ModelState);
         }
-        return _narudzbaRepository.InsertAggregate(narudzba.ToDbModel())
-            ? CreatedAtAction("GetNarudzba", new { id = narudzba.Id }, narudzba)
-            : StatusCode(500);
+
+        if (!_narucioPivoRepository.CheckAmount(narudzba.Stavke.Select(ns => ns.ToDbModel()).ToList()))
+        {
+            return BadRequest("Nema dovoljno piva na stanju");
+        }
+
+        if(_narudzbaRepository.InsertAggregate(narudzba.ToDbModel()))
+        {
+            if(_narucioPivoRepository.ReduceAmount(narudzba.Stavke.Select(ns => ns.ToDbModel()).ToList()))
+                return CreatedAtAction("GetNarudzba", new { id = narudzba.Id }, narudzba);
+        }
+        return StatusCode(500);
     }
 
 

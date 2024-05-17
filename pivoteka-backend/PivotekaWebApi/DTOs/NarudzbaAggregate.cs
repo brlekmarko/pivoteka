@@ -9,7 +9,12 @@ public class NarudzbaAggregate
 
     public int Id { get; set; }
     public DateTime Datum { get; set; }
-    public decimal Ukupna_cijena { get; set; }
+    public decimal Ukupna_cijena {
+        get
+        {
+            return Stavke.Sum(stavka => stavka.Kolicina * stavka.Cijena_piva);
+        }
+    }
 
     [Required(ErrorMessage = "Name can't be null")]
     [StringLength(50, ErrorMessage = "Name can't be longer than 64 characters")]
@@ -24,10 +29,8 @@ public static partial class DtoMapping
         {
             Id = narudzba.Id,
             Datum = narudzba.Datum,
-            Ukupna_cijena = narudzba.UkupnaCijena,
             Korisnicko_ime = narudzba.KorisnickoIme,
             Stavke = narudzba.NarucioPivos.Select(ns => ns.ToDto()).ToList()
-
         };
 
     public static DbModels.Narudzba ToDbModel(this NarudzbaAggregate narudzba)
