@@ -47,6 +47,16 @@ public class NarudzbaController : ControllerBase
             : NotFound();
     }
 
+    // GET: api/Narudzba/Aggregate/5
+    [HttpGet("Aggregate/{id}")]
+    public ActionResult<NarudzbaAggregate> GetNarudzbaAggregate(int id)
+    {
+        var narudzbaOption = _narudzbaRepository.GetAggregate(id).Map(DtoMapping.ToAggregateDto);
+        return narudzbaOption
+            ? Ok(narudzbaOption.Data)
+            : NotFound();
+    }
+
     // PUT: api/Narudzba/5
     // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkime=2123754
     [HttpPut("{id}")]
