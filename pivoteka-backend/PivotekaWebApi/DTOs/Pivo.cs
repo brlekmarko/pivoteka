@@ -35,7 +35,7 @@ public static partial class DtoMapping
             Kolicina = pivo.Kolicina,
             Opis = pivo.Opis,
             Zemlja_Podrijetla = pivo.ZemljaPodrijetla,
-            NetoVolumen = pivo.NetoVolumen,
+            Neto_volumen = pivo.NetoVolumen,
             Ime_Dobavljaca = pivo.ImeDobavljaca,
             Vrsta = pivo.Vrsta
 
@@ -49,7 +49,7 @@ public static partial class DtoMapping
             Kolicina = pivo.Kolicina,
             Opis = pivo.Opis,
             ZemljaPodrijetla = pivo.Zemlja_Podrijetla,
-            NetoVolumen = pivo.NetoVolumen,
+            NetoVolumen = pivo.Neto_volumen,
             ImeDobavljaca = pivo.Ime_Dobavljaca,
             Vrsta = pivo.Vrsta
         };
