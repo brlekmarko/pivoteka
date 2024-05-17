@@ -16,7 +16,7 @@ public class Pivo
     [Required(ErrorMessage = "Zemlja podrijetla can't be null")]
     [StringLength(50, ErrorMessage = "Zemlja podrijetla  can't be longer than 64 characters")]
     public string Zemlja_Podrijetla { get; set; } = null!;
-    public int NetoVolumen { get; set; }
+    public int Neto_volumen { get; set; }
 
     [Required(ErrorMessage = "Dobavljac name can't be null")]
     [StringLength(50, ErrorMessage = "Dobavaljac name can't be longer than 64 characters")]
