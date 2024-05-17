@@ -46,7 +46,7 @@ public class KorisnikController : ControllerBase
             return BadRequest(ModelState);
         }
 
-        if (ime != korisnik.KorisnickoIme)
+        if (ime != korisnik.Korisnicko_ime)
         {
             return BadRequest();
         }
@@ -72,7 +72,7 @@ public class KorisnikController : ControllerBase
         }
 
         return _korisnikRepository.Insert(korisnik.ToDbModel())
-            ? CreatedAtAction("GetKorisnik", new { ime = korisnik.KorisnickoIme }, korisnik)
+            ? CreatedAtAction("GetKorisnik", new { ime = korisnik.Korisnicko_ime }, korisnik)
             : StatusCode(500);
     }
 
