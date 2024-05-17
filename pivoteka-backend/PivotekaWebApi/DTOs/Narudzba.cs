@@ -7,11 +7,11 @@ public class Narudzba
 {
     public int Id { get; set; }
     public DateTime Datum { get; set; }
-    public decimal UkupnaCijena { get; set; }
+    public decimal Ukupna_cijena { get; set; }
 
     [Required(ErrorMessage = "Name can't be null")]
     [StringLength(50, ErrorMessage = "Name can't be longer than 64 characters")]
-    public string KorisnickoIme { get; set; } = null!;
+    public string Korisnicko_ime { get; set; } = null!;
 }
 
 
@@ -22,8 +22,8 @@ public static partial class DtoMapping
         {
             Id = narudzba.Id,
             Datum = narudzba.Datum,
-            UkupnaCijena = narudzba.UkupnaCijena,
-            KorisnickoIme = narudzba.KorisnickoIme
+            Ukupna_cijena = narudzba.UkupnaCijena,
+            Korisnicko_ime = narudzba.KorisnickoIme
         };
 
     public static DbModels.Narudzba ToDbModel(this Narudzba narudzba)
@@ -31,7 +31,7 @@ public static partial class DtoMapping
         {
             Id = narudzba.Id,
             Datum = narudzba.Datum.ToUniversalTime(),
-            UkupnaCijena = narudzba.UkupnaCijena,
-            KorisnickoIme = narudzba.KorisnickoIme
+            UkupnaCijena = narudzba.Ukupna_cijena,
+            KorisnickoIme = narudzba.Korisnicko_ime
         };
 }

@@ -15,12 +15,12 @@ public class Pivo
 
     [Required(ErrorMessage = "Zemlja podrijetla can't be null")]
     [StringLength(50, ErrorMessage = "Zemlja podrijetla  can't be longer than 64 characters")]
-    public string Zemlja_Podrijetla { get; set; } = null!;
+    public string Zemlja_podrijetla { get; set; } = null!;
     public int Neto_volumen { get; set; }
 
     [Required(ErrorMessage = "Dobavljac name can't be null")]
     [StringLength(50, ErrorMessage = "Dobavaljac name can't be longer than 64 characters")]
-    public string Ime_Dobavljaca { get; set; } = null!;
+    public string Ime_dobavljaca { get; set; } = null!;
     public string Vrsta { get; set; } = null!;
 }
 
@@ -34,9 +34,9 @@ public static partial class DtoMapping
             Cijena = pivo.Cijena,
             Kolicina = pivo.Kolicina,
             Opis = pivo.Opis,
-            Zemlja_Podrijetla = pivo.ZemljaPodrijetla,
+            Zemlja_podrijetla = pivo.ZemljaPodrijetla,
             Neto_volumen = pivo.NetoVolumen,
-            Ime_Dobavljaca = pivo.ImeDobavljaca,
+            Ime_dobavljaca = pivo.ImeDobavljaca,
             Vrsta = pivo.Vrsta
 
         };
@@ -48,9 +48,9 @@ public static partial class DtoMapping
             Cijena = pivo.Cijena,
             Kolicina = pivo.Kolicina,
             Opis = pivo.Opis,
-            ZemljaPodrijetla = pivo.Zemlja_Podrijetla,
+            ZemljaPodrijetla = pivo.Zemlja_podrijetla,
             NetoVolumen = pivo.Neto_volumen,
-            ImeDobavljaca = pivo.Ime_Dobavljaca,
+            ImeDobavljaca = pivo.Ime_dobavljaca,
             Vrsta = pivo.Vrsta
         };
 }

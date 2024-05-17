@@ -9,7 +9,7 @@ public class Korisnik
 
     [Required(ErrorMessage = "Name can't be null")]
     [StringLength(32, ErrorMessage = "Name can't be longer than 32 characters")]
-    public string KorisnickoIme { get; set; } = null!;
+    public string Korisnicko_ime { get; set; } = null!;
 
     [Required(ErrorMessage = "Password can't be null")]
     [StringLength(256, ErrorMessage = "Password can't be longer than 256 characters")]
@@ -31,7 +31,7 @@ public static partial class DtoMapping
     public static Korisnik ToDto(this DbModels.Korisnik korisnik)
         => new Korisnik()
         {
-            KorisnickoIme = korisnik.KorisnickoIme,
+            Korisnicko_ime = korisnik.KorisnickoIme,
             Lozinka = korisnik.Lozinka,
             Email = korisnik.Email,
             Ime = korisnik.Ime,
@@ -42,7 +42,7 @@ public static partial class DtoMapping
         => new DbModels.Korisnik()
         {
             Ime = korisnik.Ime,
-            KorisnickoIme = korisnik.KorisnickoIme,
+            KorisnickoIme = korisnik.Korisnicko_ime,
             Lozinka = korisnik.Lozinka,
             Email = korisnik.Email,
             Prezime = korisnik.Prezime
