@@ -15,7 +15,7 @@ export default function UrediPivoPage() {
     const [opis, setOpis] = useState('');
     const [zemljaPodrijetla, setZemljaPodrijetla] = useState('');
     const [netoVolumen, setNetoVolumen] = useState(0);
-    const [imeDobavljaca, setImeDobavljaca] = useState('');
+    const [imeDobavljaca, setImeDobavljaca] = useState<string>();
     const [vrsta, setVrsta] = useState<string>();
 
     const [error, setError] = useState('');
@@ -39,7 +39,7 @@ export default function UrediPivoPage() {
                 opis,
                 zemlja_podrijetla: zemljaPodrijetla,
                 neto_volumen: netoVolumen,
-                ime_dobavljaca: imeDobavljaca,
+                ime_dobavljaca: imeDobavljaca ? imeDobavljaca : '',
                 vrsta
             };
             const res = await azurirajPivo(pivo);
@@ -52,7 +52,7 @@ export default function UrediPivoPage() {
     async function dohvatiDobavljace() {
         let sviDobavljaci = await dohvatiSveDobavljace();
         let sviDobavljaciDropdown = sviDobavljaci.map((dobavljac) => {
-            return {label: dobavljac, value: dobavljac};
+            return {label: dobavljac.ime, value: dobavljac.ime};
         });
         setDobavljaci(sviDobavljaciDropdown);
     }

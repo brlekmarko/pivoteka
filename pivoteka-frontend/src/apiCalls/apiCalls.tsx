@@ -71,9 +71,9 @@ export const obrisiPivo = async (ime: string) => {
     await axios.delete(`${endpoint}/Pivo/${ime}`);
 }
 
-export const dohvatiSveDobavljace = async () : Promise<string[]> => {
+export const dohvatiSveDobavljace = async () : Promise<any[]> => {
     const response = await axios.get(`${endpoint}/Dobavljac`);
-    return response.data as string[];
+    return response.data as any[];
     //return ['Karlovačka pivovara', 'Zagrebačka pivovara'];
 }
 
@@ -134,9 +134,9 @@ export const dohvatiNarudzbu = async (id: number) : Promise<Narudzba> => {
 }
 
 export const dodajNovuNarudzbu = async (narudzba: Narudzba) => {
-    await axios.post(`${endpoint}/Narudzba/Aggregates`, narudzba);
+    await axios.post(`${endpoint}/Narudzba/Aggregate`, narudzba);
 }
 
 export const obrisiNarudzbu = async (id: number) => {
-    await axios.delete(`${endpoint}/Narudzba/Aggregates/${id}`);
+    await axios.delete(`${endpoint}/Narudzba/Aggregate/${id}`);
 }

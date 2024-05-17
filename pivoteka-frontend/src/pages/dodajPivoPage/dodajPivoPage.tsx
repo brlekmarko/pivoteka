@@ -14,8 +14,8 @@ export default function DodajPivoPage() {
     const [opis, setOpis] = useState('');
     const [zemljaPodrijetla, setZemljaPodrijetla] = useState('');
     const [netoVolumen, setNetoVolumen] = useState(0);
-    const [imeDobavljaca, setImeDobavljaca] = useState('');
-    const [vrsta, setVrsta] = useState();
+    const [imeDobavljaca, setImeDobavljaca] = useState<string>();
+    const [vrsta, setVrsta] = useState<string>();
 
     const [error, setError] = useState('');
 
@@ -38,7 +38,7 @@ export default function DodajPivoPage() {
                 opis,
                 zemlja_podrijetla: zemljaPodrijetla,
                 neto_volumen: netoVolumen,
-                ime_dobavljaca: imeDobavljaca,
+                ime_dobavljaca: imeDobavljaca ? imeDobavljaca : '',
                 vrsta
             };
             const res = await dodajNovoPivo(pivo);
@@ -51,7 +51,7 @@ export default function DodajPivoPage() {
     async function dohvatiDobavljace() {
         let sviDobavljaci = await dohvatiSveDobavljace();
         let sviDobavljaciDropdown = sviDobavljaci.map((dobavljac) => {
-            return {label: dobavljac, value: dobavljac};
+            return {label: dobavljac.ime, value: dobavljac.ime};
         });
         setDobavljaci(sviDobavljaciDropdown);
     }

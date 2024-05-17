@@ -21,7 +21,6 @@ export default function SvaPivaPage() {
     }
 
     const filterPiva = useCallback((piva : Pivo[]) => {
-        console.log(selectedVrsta)
         let currentPiva = piva;
         if (search !== '') {
             currentPiva = currentPiva.filter((pivo) => pivo.ime.toLowerCase().includes(search.toLowerCase()));
