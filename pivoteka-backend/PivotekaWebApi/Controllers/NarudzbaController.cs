@@ -126,8 +126,8 @@ public class NarudzbaController : ControllerBase
             : StatusCode(500);
     }
 
-    // POST: api/Narudzba/Aggreagate
-    [HttpPost("Aggreagate")]
+    // POST: api/Narudzba/Aggregate
+    [HttpPost("Aggregate")]
     public ActionResult<NarudzbaAggregate> CreateNarudzbaAggregate(NarudzbaAggregate narudzba)
     {
         if (!ModelState.IsValid)

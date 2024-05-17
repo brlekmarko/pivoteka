@@ -45,7 +45,7 @@ function App() {
               </div>
             )
           })}
-          <h1>Ukupna cijena: {ukupna_cijena}</h1>
+          <h1>Ukupna cijena (€): {ukupna_cijena}</h1>
           <Button label="Naruči" onClick={() => naruci()} />
         </div>
       )
@@ -54,15 +54,19 @@ function App() {
   , [refresh]);
 
   function naruci(){
-    dodajNovuNarudzbu({
-      id: -1,
-      datum: new Date().toISOString(),
-      ukupna_cijena: -1,
-      korisnicko_ime: 'testuser',
-      stavke: JSON.parse(localStorage.getItem('kosarica')!),
-    });
-    localStorage.removeItem('kosarica');
-    setKosarica(false);
+    try{
+      dodajNovuNarudzbu({
+        id: 0,
+        datum: new Date().toISOString(),
+        ukupna_cijena: -1,
+        korisnicko_ime: 'testkupac1',
+        stavke: JSON.parse(localStorage.getItem('kosarica')!),
+      });
+      localStorage.removeItem('kosarica');
+      setKosarica(false);
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   return (

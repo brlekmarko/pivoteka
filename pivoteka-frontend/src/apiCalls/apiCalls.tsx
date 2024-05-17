@@ -109,7 +109,7 @@ export const dohvatiSveNarudzbe = async () : Promise<Narudzba[]> => {
 
 
 export const dohvatiNarudzbu = async (id: number) : Promise<Narudzba> => {
-    const response = await axios.get(`${endpoint}/Narudzba/Aggregates/${id}`);
+    const response = await axios.get(`${endpoint}/Narudzba/Aggregate/${id}`);
     return response.data as Narudzba;
     // return {
     //     id: 1,
@@ -138,5 +138,5 @@ export const dodajNovuNarudzbu = async (narudzba: Narudzba) => {
 }
 
 export const obrisiNarudzbu = async (id: number) => {
-    await axios.delete(`${endpoint}/Narudzba/Aggregate/${id}`);
+    await axios.delete(`${endpoint}/Narudzba/${id}`);
 }

@@ -33,7 +33,7 @@ export default function SvaPivaPage() {
 
     function dodajUKosaricu(pivo: Pivo) {
         let stavkaNarudzbe : StavkaNarudzbe = {
-            id_narudzbe: -1,
+            id_narudzbe: 0,
             ime_piva: pivo.ime,
             cijena_piva: pivo.cijena,
             kolicina: 1
