@@ -8,6 +8,7 @@ import { Dropdown } from "primereact/dropdown";
 import { StavkaNarudzbe } from "../../models/StavkaNarudzbe";
 import { Button } from "primereact/button";
 import './svaPivaPage.css';
+import { Store } from 'react-notifications-component';
 
 export default function SvaPivaPage() {
 
@@ -31,6 +32,20 @@ export default function SvaPivaPage() {
         return currentPiva;
     }, [search, selectedVrsta]);
 
+    function showNotification() {
+        Store.addNotification({
+            title: "Narudžba uspješno dodana",
+            message: "Narudžba je uspješno dodana u košaricu",
+            type: "success",
+            insert: "top",
+            container: "top-right",
+            dismiss: {
+                duration: 2000,
+                onScreen: true
+            }
+        });
+    }
+
     function dodajUKosaricu(pivo: Pivo) {
         let stavkaNarudzbe : StavkaNarudzbe = {
             id_narudzbe: 0,
@@ -53,6 +68,7 @@ export default function SvaPivaPage() {
             }
             localStorage.setItem('kosarica', JSON.stringify(kosarica));
         }
+        showNotification();
     }
 
     useEffect(() => {

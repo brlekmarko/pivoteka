@@ -140,3 +140,10 @@ export const dodajNovuNarudzbu = async (narudzba: Narudzba) => {
 export const obrisiNarudzbu = async (id: number) => {
     await axios.delete(`${endpoint}/Narudzba/${id}`);
 }
+
+
+export const dohvatiSveKorisnike = async () : Promise<any[]> => {
+    const response = await axios.get(`${endpoint}/Korisnik`);
+    return response.data as any[];
+    // return ['testuser', 'testuser2'];
+}

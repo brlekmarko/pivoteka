@@ -37,14 +37,20 @@ export default function PivoPage() {
             </div>
 
             <div className="pivo-info">
-                <h1>Ime: {pivo?.ime}</h1>
-                <h1>Cijena (€): {pivo?.cijena}</h1>
-                <h1>Količina: {pivo?.kolicina}</h1>
-                <h1>Opis: {pivo?.opis}</h1>
-                <h1>Zemlja podrijetla: {pivo?.zemlja_podrijetla}</h1>
-                <h1>Volumen (ml): {pivo?.neto_volumen}</h1>
-                <h1>Dobavljač: {pivo?.ime_dobavljaca}</h1>
-                <h1>Vrsta: {pivo?.vrsta}</h1>
+                <div className="lijevo-pivo">
+                    <h1>Ime: {pivo?.ime}</h1>
+                    <h1>Cijena (€): {pivo?.cijena}</h1>
+                    <h1>Količina: {pivo?.kolicina}</h1>
+                    <h1>Volumen (ml): {pivo?.neto_volumen}</h1>
+                </div>
+                
+                <div className="desno-pivo">
+                    <h1>Opis: {pivo?.opis}</h1>
+                    <h1>Zemlja podrijetla: {pivo?.zemlja_podrijetla}</h1>
+                    <h1>Dobavljač: {pivo?.ime_dobavljaca}</h1>
+                    <h1>Vrsta: {pivo?.vrsta}</h1>
+                </div>
+                
             </div>
         </div>
     );

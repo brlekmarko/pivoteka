@@ -12,12 +12,15 @@ import { Button } from 'primereact/button';
 import { dodajNovuNarudzbu } from './apiCalls/apiCalls';
 import DodajPivoPage from './pages/dodajPivoPage/dodajPivoPage';
 import UrediPivoPage from './pages/urediPivoPage/urediPivoPage';
+import { ReactNotifications } from 'react-notifications-component'
+import 'react-notifications-component/dist/theme.css'
 
 function App() {
   
 
   const [kosarica, setKosarica] = useState<boolean>(false);
   const [refresh, setRefresh] = useState<boolean>(false);
+  const [error, setError] = useState<string>('');
 
   const generateCart = useCallback(() => {
     let kosarica = localStorage.getItem('kosarica');
@@ -46,37 +49,40 @@ function App() {
             )
           })}
           <h1>Ukupna cijena (€): {ukupna_cijena}</h1>
+          {error && <p className='errorP'>{error}</p>}
           <Button label="Naruči" onClick={() => naruci()} />
         </div>
       )
     }
   }
-  , [refresh]);
+  , [refresh, error]);
 
-  function naruci(){
+  async function naruci(){
     try{
-      dodajNovuNarudzbu({
+      await dodajNovuNarudzbu({
         id: 0,
         datum: new Date().toISOString(),
         ukupna_cijena: -1,
-        korisnicko_ime: 'testkupac1',
+        korisnicko_ime: 'testkupac2',
         stavke: JSON.parse(localStorage.getItem('kosarica')!),
       });
       localStorage.removeItem('kosarica');
       setKosarica(false);
+      setError('');
     } catch (error) {
-      console.log(error);
+      setError('Greška prilikom narudžbe, nema dovoljno piva na skladištu.');
     }
   }
 
   return (
     <div className="App">
+      <ReactNotifications />
       <header className="App-header">
         <a href={"/"}>Home</a>
         <a href={"/piva"}>Piva</a>
         <a href={"/narudzbe"}>Narudžbe</a>
         <BsCart4 className="cartIcon" onClick={() => setKosarica(true)}></BsCart4>
-        <Dialog header="Košarica" visible={kosarica} onHide={() => {setKosarica(false)}}>
+        <Dialog header="Košarica" visible={kosarica} onHide={() => {setKosarica(false); setError('');}}>
           {generateCart()}
         </Dialog>
       </header>
