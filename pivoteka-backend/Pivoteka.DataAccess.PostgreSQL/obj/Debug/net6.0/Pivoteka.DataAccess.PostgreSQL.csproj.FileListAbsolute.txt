@@ -10,3 +10,15 @@ C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\ob
 C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\obj\Debug\net6.0\refint\Pivoteka.DataAccess.PostgreSQL.dll
 C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\obj\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.pdb
 C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\obj\Debug\net6.0\ref\Pivoteka.DataAccess.PostgreSQL.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\bin\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.deps.json
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\bin\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\bin\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.pdb
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\obj\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.csproj.AssemblyReference.cache
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\obj\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.GeneratedMSBuildEditorConfig.editorconfig
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\obj\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.AssemblyInfoInputs.cache
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\obj\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.AssemblyInfo.cs
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\obj\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.csproj.CoreCompileInputs.cache
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\obj\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\obj\Debug\net6.0\refint\Pivoteka.DataAccess.PostgreSQL.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\obj\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.pdb
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.DataAccess.PostgreSQL\obj\Debug\net6.0\ref\Pivoteka.DataAccess.PostgreSQL.dll

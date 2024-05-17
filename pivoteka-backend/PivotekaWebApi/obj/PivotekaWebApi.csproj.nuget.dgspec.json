@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\PivotekaWebApi\\PivotekaWebApi.csproj": {}
+    "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\PivotekaWebApi\\PivotekaWebApi.csproj": {}
   },
   "projects": {
-    "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\Pivoteka.Commons.csproj": {
+    "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\Pivoteka.Commons.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\Pivoteka.Commons.csproj",
+        "projectUniqueName": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\Pivoteka.Commons.csproj",
         "projectName": "Pivoteka.Commons",
-        "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\Pivoteka.Commons.csproj",
-        "packagesPath": "C:\\Users\\lukas\\.nuget\\packages\\",
-        "outputPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\obj\\",
+        "projectPath": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\Pivoteka.Commons.csproj",
+        "packagesPath": "C:\\Users\\MiRAZ\\.nuget\\packages\\",
+        "outputPath": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\MiRAZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -60,25 +55,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.422\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.DataAccess.PostgreSQL\\Pivoteka.DataAccess.PostgreSQL.csproj": {
+    "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.DataAccess.PostgreSQL\\Pivoteka.DataAccess.PostgreSQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.DataAccess.PostgreSQL\\Pivoteka.DataAccess.PostgreSQL.csproj",
+        "projectUniqueName": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.DataAccess.PostgreSQL\\Pivoteka.DataAccess.PostgreSQL.csproj",
         "projectName": "Pivoteka.DataAccess.PostgreSQL",
-        "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.DataAccess.PostgreSQL\\Pivoteka.DataAccess.PostgreSQL.csproj",
-        "packagesPath": "C:\\Users\\lukas\\.nuget\\packages\\",
-        "outputPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.DataAccess.PostgreSQL\\obj\\",
+        "projectPath": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.DataAccess.PostgreSQL\\Pivoteka.DataAccess.PostgreSQL.csproj",
+        "packagesPath": "C:\\Users\\MiRAZ\\.nuget\\packages\\",
+        "outputPath": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.DataAccess.PostgreSQL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\MiRAZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -86,7 +77,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -126,25 +116,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.422\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories.PostgreSQL\\Pivoteka.Repositories.PostgreSQL.csproj": {
+    "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories.PostgreSQL\\Pivoteka.Repositories.PostgreSQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories.PostgreSQL\\Pivoteka.Repositories.PostgreSQL.csproj",
+        "projectUniqueName": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories.PostgreSQL\\Pivoteka.Repositories.PostgreSQL.csproj",
         "projectName": "Pivoteka.Repositories.PostgreSQL",
-        "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories.PostgreSQL\\Pivoteka.Repositories.PostgreSQL.csproj",
-        "packagesPath": "C:\\Users\\lukas\\.nuget\\packages\\",
-        "outputPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories.PostgreSQL\\obj\\",
+        "projectPath": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories.PostgreSQL\\Pivoteka.Repositories.PostgreSQL.csproj",
+        "packagesPath": "C:\\Users\\MiRAZ\\.nuget\\packages\\",
+        "outputPath": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories.PostgreSQL\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\MiRAZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -152,21 +138,20 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\Pivoteka.Commons.csproj": {
-                "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\Pivoteka.Commons.csproj"
+              "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\Pivoteka.Commons.csproj": {
+                "projectPath": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\Pivoteka.Commons.csproj"
               },
-              "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.DataAccess.PostgreSQL\\Pivoteka.DataAccess.PostgreSQL.csproj": {
-                "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.DataAccess.PostgreSQL\\Pivoteka.DataAccess.PostgreSQL.csproj"
+              "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.DataAccess.PostgreSQL\\Pivoteka.DataAccess.PostgreSQL.csproj": {
+                "projectPath": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.DataAccess.PostgreSQL\\Pivoteka.DataAccess.PostgreSQL.csproj"
               },
-              "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories\\Pivoteka.Repositories.csproj": {
-                "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories\\Pivoteka.Repositories.csproj"
+              "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories\\Pivoteka.Repositories.csproj": {
+                "projectPath": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories\\Pivoteka.Repositories.csproj"
               }
             }
           }
@@ -196,25 +181,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.422\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories\\Pivoteka.Repositories.csproj": {
+    "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories\\Pivoteka.Repositories.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories\\Pivoteka.Repositories.csproj",
+        "projectUniqueName": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories\\Pivoteka.Repositories.csproj",
         "projectName": "Pivoteka.Repositories",
-        "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories\\Pivoteka.Repositories.csproj",
-        "packagesPath": "C:\\Users\\lukas\\.nuget\\packages\\",
-        "outputPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories\\obj\\",
+        "projectPath": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories\\Pivoteka.Repositories.csproj",
+        "packagesPath": "C:\\Users\\MiRAZ\\.nuget\\packages\\",
+        "outputPath": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\MiRAZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -222,15 +203,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\Pivoteka.Commons.csproj": {
-                "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\Pivoteka.Commons.csproj"
+              "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\Pivoteka.Commons.csproj": {
+                "projectPath": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\Pivoteka.Commons.csproj"
               }
             }
           }
@@ -260,25 +240,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.422\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\PivotekaWebApi\\PivotekaWebApi.csproj": {
+    "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\PivotekaWebApi\\PivotekaWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\PivotekaWebApi\\PivotekaWebApi.csproj",
+        "projectUniqueName": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\PivotekaWebApi\\PivotekaWebApi.csproj",
         "projectName": "PivotekaWebApi",
-        "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\PivotekaWebApi\\PivotekaWebApi.csproj",
-        "packagesPath": "C:\\Users\\lukas\\.nuget\\packages\\",
-        "outputPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\PivotekaWebApi\\obj\\",
+        "projectPath": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\PivotekaWebApi\\PivotekaWebApi.csproj",
+        "packagesPath": "C:\\Users\\MiRAZ\\.nuget\\packages\\",
+        "outputPath": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\PivotekaWebApi\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\lukas\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\MiRAZ\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -286,24 +262,23 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\Pivoteka.Commons.csproj": {
-                "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\Pivoteka.Commons.csproj"
+              "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\Pivoteka.Commons.csproj": {
+                "projectPath": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Commons\\Pivoteka.Commons.csproj"
               },
-              "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.DataAccess.PostgreSQL\\Pivoteka.DataAccess.PostgreSQL.csproj": {
-                "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.DataAccess.PostgreSQL\\Pivoteka.DataAccess.PostgreSQL.csproj"
+              "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.DataAccess.PostgreSQL\\Pivoteka.DataAccess.PostgreSQL.csproj": {
+                "projectPath": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.DataAccess.PostgreSQL\\Pivoteka.DataAccess.PostgreSQL.csproj"
               },
-              "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories.PostgreSQL\\Pivoteka.Repositories.PostgreSQL.csproj": {
-                "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories.PostgreSQL\\Pivoteka.Repositories.PostgreSQL.csproj"
+              "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories.PostgreSQL\\Pivoteka.Repositories.PostgreSQL.csproj": {
+                "projectPath": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories.PostgreSQL\\Pivoteka.Repositories.PostgreSQL.csproj"
               },
-              "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories\\Pivoteka.Repositories.csproj": {
-                "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories\\Pivoteka.Repositories.csproj"
+              "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories\\Pivoteka.Repositories.csproj": {
+                "projectPath": "A:\\Desktop\\faks\\predmeti\\8. semestar\\infsus\\PIVO\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories\\Pivoteka.Repositories.csproj"
               }
             }
           }
@@ -352,7 +327,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.422\\RuntimeIdentifierGraph.json"
         }
       }
     }

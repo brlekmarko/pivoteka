@@ -17,3 +17,22 @@ C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\
 C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\bin\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.pdb
 C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\bin\Debug\net6.0\Pivoteka.Repositories.pdb
 C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\obj\Debug\net6.0\Pivoteka.Repositories.PostgreSQL.csproj.CopyComplete
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\bin\Debug\net6.0\Pivoteka.Repositories.PostgreSQL.deps.json
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\bin\Debug\net6.0\Pivoteka.Repositories.PostgreSQL.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\bin\Debug\net6.0\Pivoteka.Repositories.PostgreSQL.pdb
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\bin\Debug\net6.0\Pivoteka.Commons.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\bin\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\bin\Debug\net6.0\Pivoteka.Repositories.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\bin\Debug\net6.0\Pivoteka.Commons.pdb
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\bin\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.pdb
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\bin\Debug\net6.0\Pivoteka.Repositories.pdb
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\obj\Debug\net6.0\Pivoteka.Repositories.PostgreSQL.csproj.AssemblyReference.cache
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\obj\Debug\net6.0\Pivoteka.Repositories.PostgreSQL.GeneratedMSBuildEditorConfig.editorconfig
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\obj\Debug\net6.0\Pivoteka.Repositories.PostgreSQL.AssemblyInfoInputs.cache
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\obj\Debug\net6.0\Pivoteka.Repositories.PostgreSQL.AssemblyInfo.cs
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\obj\Debug\net6.0\Pivoteka.Repositories.PostgreSQL.csproj.CoreCompileInputs.cache
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\obj\Debug\net6.0\Pivoteka.Repositories.PostgreSQL.csproj.CopyComplete
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\obj\Debug\net6.0\Pivoteka.Repositories.PostgreSQL.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\obj\Debug\net6.0\refint\Pivoteka.Repositories.PostgreSQL.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\obj\Debug\net6.0\Pivoteka.Repositories.PostgreSQL.pdb
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories.PostgreSQL\obj\Debug\net6.0\ref\Pivoteka.Repositories.PostgreSQL.dll

@@ -13,3 +13,18 @@ C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\n
 C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories\bin\Debug\net6.0\Pivoteka.Commons.dll
 C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories\bin\Debug\net6.0\Pivoteka.Commons.pdb
 C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\net6.0\Pivoteka.Repositories.csproj.CopyComplete
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories\bin\Debug\net6.0\Pivoteka.Repositories.deps.json
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories\bin\Debug\net6.0\Pivoteka.Repositories.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories\bin\Debug\net6.0\Pivoteka.Repositories.pdb
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories\bin\Debug\net6.0\Pivoteka.Commons.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories\bin\Debug\net6.0\Pivoteka.Commons.pdb
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\net6.0\Pivoteka.Repositories.csproj.AssemblyReference.cache
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\net6.0\Pivoteka.Repositories.GeneratedMSBuildEditorConfig.editorconfig
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\net6.0\Pivoteka.Repositories.AssemblyInfoInputs.cache
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\net6.0\Pivoteka.Repositories.AssemblyInfo.cs
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\net6.0\Pivoteka.Repositories.csproj.CoreCompileInputs.cache
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\net6.0\Pivoteka.Repositories.csproj.CopyComplete
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\net6.0\Pivoteka.Repositories.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\net6.0\refint\Pivoteka.Repositories.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\net6.0\Pivoteka.Repositories.pdb
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\Pivoteka.Repositories\obj\Debug\net6.0\ref\Pivoteka.Repositories.dll

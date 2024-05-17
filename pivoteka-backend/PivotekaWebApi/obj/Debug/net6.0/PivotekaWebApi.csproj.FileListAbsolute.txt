@@ -45,3 +45,45 @@ C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\P
 C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.pdb
 C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Pivoteka.Repositories.PostgreSQL.pdb
 C:\faks_repos\INFSUS\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Pivoteka.Repositories.pdb
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\appsettings.Development.json
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\appsettings.json
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\PivotekaWebApi.exe
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\PivotekaWebApi.deps.json
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\PivotekaWebApi.runtimeconfig.json
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\PivotekaWebApi.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\PivotekaWebApi.pdb
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Humanizer.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Microsoft.OpenApi.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Npgsql.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Pivoteka.Commons.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Pivoteka.Repositories.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Pivoteka.Repositories.PostgreSQL.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Pivoteka.Commons.pdb
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Pivoteka.DataAccess.PostgreSQL.pdb
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Pivoteka.Repositories.PostgreSQL.pdb
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\bin\Debug\net6.0\Pivoteka.Repositories.pdb
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\obj\Debug\net6.0\PivotekaWebApi.csproj.AssemblyReference.cache
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\obj\Debug\net6.0\PivotekaWebApi.GeneratedMSBuildEditorConfig.editorconfig
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\obj\Debug\net6.0\PivotekaWebApi.AssemblyInfoInputs.cache
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\obj\Debug\net6.0\PivotekaWebApi.AssemblyInfo.cs
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\obj\Debug\net6.0\PivotekaWebApi.csproj.CoreCompileInputs.cache
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\obj\Debug\net6.0\PivotekaWebApi.MvcApplicationPartsAssemblyInfo.cs
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\obj\Debug\net6.0\PivotekaWebApi.MvcApplicationPartsAssemblyInfo.cache
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\obj\Debug\net6.0\staticwebassets.build.json
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\obj\Debug\net6.0\staticwebassets.development.json
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\obj\Debug\net6.0\scopedcss\bundle\PivotekaWebApi.styles.css
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\obj\Debug\net6.0\PivotekaWebApi.csproj.CopyComplete
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\obj\Debug\net6.0\PivotekaWebApi.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\obj\Debug\net6.0\refint\PivotekaWebApi.dll
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\obj\Debug\net6.0\PivotekaWebApi.pdb
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\obj\Debug\net6.0\PivotekaWebApi.genruntimeconfig.cache
+A:\Desktop\faks\predmeti\8. semestar\infsus\PIVO\pivoteka\pivoteka-backend\PivotekaWebApi\obj\Debug\net6.0\ref\PivotekaWebApi.dll
