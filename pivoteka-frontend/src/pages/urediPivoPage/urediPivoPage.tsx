@@ -77,7 +77,7 @@ export default function UrediPivoPage() {
 
     return (
         <div className="pivo-forma">
-            <h1>Dodaj pivo</h1>
+            <h1>Uredi pivo</h1>
             <div>
                 <label>Ime</label>
                 <InputText value={ime} onChange={(e) => setIme(e.target.value)} disabled/>
