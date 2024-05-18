@@ -293,6 +293,15 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.DataAccess.PostgreSQL\\Pivoteka.DataAccess.PostgreSQL.csproj": {
+                "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.DataAccess.PostgreSQL\\Pivoteka.DataAccess.PostgreSQL.csproj"
+              },
+              "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories.PostgreSQL\\Pivoteka.Repositories.PostgreSQL.csproj": {
+                "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories.PostgreSQL\\Pivoteka.Repositories.PostgreSQL.csproj"
+              },
+              "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories\\Pivoteka.Repositories.csproj": {
+                "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories\\Pivoteka.Repositories.csproj"
+              },
               "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\PivotekaWebApi\\PivotekaWebApi.csproj": {
                 "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\PivotekaWebApi\\PivotekaWebApi.csproj"
               }
@@ -309,13 +318,21 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "FakeItEasy": {
+              "target": "Package",
+              "version": "[8.2.0, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.12.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.3, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.5.0, )"
-            },
-            "Moq": {
-              "target": "Package",
-              "version": "[4.20.70, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

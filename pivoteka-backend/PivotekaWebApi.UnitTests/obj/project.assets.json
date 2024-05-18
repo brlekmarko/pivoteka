@@ -24,6 +24,38 @@
           "build/netstandard1.0/coverlet.collector.targets": {}
         }
       },
+      "FakeItEasy/8.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Castle.Core": "5.1.1"
+        },
+        "compile": {
+          "lib/net6.0/FakeItEasy.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FakeItEasy.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "FluentAssertions/6.12.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Configuration.ConfigurationManager": "4.4.0"
+        },
+        "compile": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Microsoft.CodeCoverage/17.5.0": {
         "type": "package",
         "compile": {
@@ -37,12 +69,12 @@
           "build/netstandard2.0/Microsoft.CodeCoverage.targets": {}
         }
       },
-      "Microsoft.EntityFrameworkCore/6.0.1": {
+      "Microsoft.EntityFrameworkCore/6.0.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.1",
-          "Microsoft.EntityFrameworkCore.Analyzers": "6.0.1",
-          "Microsoft.Extensions.Caching.Memory": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.3",
+          "Microsoft.EntityFrameworkCore.Analyzers": "6.0.3",
+          "Microsoft.Extensions.Caching.Memory": "6.0.1",
           "Microsoft.Extensions.DependencyInjection": "6.0.0",
           "Microsoft.Extensions.Logging": "6.0.0",
           "System.Collections.Immutable": "6.0.0",
@@ -59,7 +91,7 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Abstractions/6.0.1": {
+      "Microsoft.EntityFrameworkCore.Abstractions/6.0.3": {
         "type": "package",
         "compile": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
@@ -72,13 +104,29 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Analyzers/6.0.1": {
+      "Microsoft.EntityFrameworkCore.Analyzers/6.0.3": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.InMemory/6.0.3": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.3"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
+            "related": ".xml"
+          }
         }
       },
       "Microsoft.EntityFrameworkCore.Relational/6.0.1": {
@@ -123,7 +171,7 @@
           }
         }
       },
-      "Microsoft.Extensions.Caching.Memory/6.0.0": {
+      "Microsoft.Extensions.Caching.Memory/6.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Extensions.Caching.Abstractions": "6.0.0",
@@ -581,22 +629,6 @@
           }
         }
       },
-      "Moq/4.20.70": {
-        "type": "package",
-        "dependencies": {
-          "Castle.Core": "5.1.1"
-        },
-        "compile": {
-          "lib/net6.0/Moq.dll": {
-            "related": ".xml"
-          }
-        },
-        "runtime": {
-          "lib/net6.0/Moq.dll": {
-            "related": ".xml"
-          }
-        }
-      },
       "NETStandard.Library/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -1020,6 +1052,20 @@
         },
         "build": {
           "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.4.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.4.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
         }
       },
       "System.Console/4.3.0": {
@@ -1845,6 +1891,23 @@
           "lib/netstandard1.3/System.Security.Cryptography.Primitives.dll": {}
         }
       },
+      "System.Security.Cryptography.ProtectedData/4.4.0": {
+        "type": "package",
+        "compile": {
+          "ref/netstandard2.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "System.Security.Cryptography.X509Certificates/4.3.0": {
         "type": "package",
         "dependencies": {
@@ -2294,6 +2357,59 @@
         "coverlet.collector.nuspec"
       ]
     },
+    "FakeItEasy/8.2.0": {
+      "sha512": "oauv0CnDbOGA4jCSP6KepU7EyPfnQGq3eNbMbqWAvWzpKsSc2FNzLAgTHMrrzCF/VUsiR0gjNCXksMVzdsHRdw==",
+      "type": "package",
+      "path": "fakeiteasy/8.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fakeiteasy.8.2.0.nupkg.sha512",
+        "fakeiteasy.nuspec",
+        "images/FakeItEasy.png",
+        "lib/net462/FakeItEasy.dll",
+        "lib/net462/FakeItEasy.xml",
+        "lib/net6.0/FakeItEasy.dll",
+        "lib/net6.0/FakeItEasy.xml",
+        "lib/net8.0/FakeItEasy.dll",
+        "lib/net8.0/FakeItEasy.xml",
+        "lib/netstandard2.0/FakeItEasy.dll",
+        "lib/netstandard2.0/FakeItEasy.xml",
+        "lib/netstandard2.1/FakeItEasy.dll",
+        "lib/netstandard2.1/FakeItEasy.xml"
+      ]
+    },
+    "FluentAssertions/6.12.0": {
+      "sha512": "ZXhHT2YwP9lajrwSKbLlFqsmCCvFJMoRSK9t7sImfnCyd0OB3MhgxdoMcVqxbq1iyxD6mD2fiackWmBb7ayiXQ==",
+      "type": "package",
+      "path": "fluentassertions/6.12.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "FluentAssertions.png",
+        "fluentassertions.6.12.0.nupkg.sha512",
+        "fluentassertions.nuspec",
+        "lib/net47/FluentAssertions.dll",
+        "lib/net47/FluentAssertions.pdb",
+        "lib/net47/FluentAssertions.xml",
+        "lib/net6.0/FluentAssertions.dll",
+        "lib/net6.0/FluentAssertions.pdb",
+        "lib/net6.0/FluentAssertions.xml",
+        "lib/netcoreapp2.1/FluentAssertions.dll",
+        "lib/netcoreapp2.1/FluentAssertions.pdb",
+        "lib/netcoreapp2.1/FluentAssertions.xml",
+        "lib/netcoreapp3.0/FluentAssertions.dll",
+        "lib/netcoreapp3.0/FluentAssertions.pdb",
+        "lib/netcoreapp3.0/FluentAssertions.xml",
+        "lib/netstandard2.0/FluentAssertions.dll",
+        "lib/netstandard2.0/FluentAssertions.pdb",
+        "lib/netstandard2.0/FluentAssertions.xml",
+        "lib/netstandard2.1/FluentAssertions.dll",
+        "lib/netstandard2.1/FluentAssertions.pdb",
+        "lib/netstandard2.1/FluentAssertions.xml"
+      ]
+    },
     "Microsoft.CodeCoverage/17.5.0": {
       "sha512": "6FQo0O6LKDqbCiIgVQhJAf810HSjFlOj7FunWaeOGDKxy8DAbpHzPk4SfBTXz9ytaaceuIIeR6hZgplt09m+ig==",
       "type": "package",
@@ -2359,46 +2475,60 @@
         "microsoft.codecoverage.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore/6.0.1": {
-      "sha512": "UmZBVaRbOgtbYkp4x8W9j8HBd7ywzPRPj5StSiqFt/nsH6nOf1eQmHFfjIRb70cxsuC0NbkFBAAoUHFRCscCKA==",
+    "Microsoft.EntityFrameworkCore/6.0.3": {
+      "sha512": "f7ZlNOI1wPg/r0zRgvmcLAM3kwuCVGe5cZc8rYoKPDGZs5dgRFe5a43H9FnCXsyFAF6FILB08Nr9RkuNMwd3TQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore/6.0.1",
+      "path": "microsoft.entityframeworkcore/6.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.xml",
-        "microsoft.entityframeworkcore.6.0.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.6.0.3.nupkg.sha512",
         "microsoft.entityframeworkcore.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Abstractions/6.0.1": {
-      "sha512": "JM55+h9Ln9MZAFikvmgrmDoIt4Zz9ZWZpNrmyi9QTVuJMzQQOEnJkISKp5Ebvpno6Jt00Gkrfmvu8K5mFPO+dA==",
+    "Microsoft.EntityFrameworkCore.Abstractions/6.0.3": {
+      "sha512": "7c6wJtTFj7FDe20IVPDKeCzxWIMu+XDpYi7aYuUo6knu4vDeB3N3F0pjAZgXJ96GwTZYBrjOEwnbpYmfapEz/w==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.abstractions/6.0.1",
+      "path": "microsoft.entityframeworkcore.abstractions/6.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
         "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
-        "microsoft.entityframeworkcore.abstractions.6.0.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.6.0.3.nupkg.sha512",
         "microsoft.entityframeworkcore.abstractions.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Analyzers/6.0.1": {
-      "sha512": "fp8VTLv1up7EGAa9Daf+IErpq63hiKtWeApoxgnkMjURdjkbVcwaA4AozwHjEqVVQugGqwroHes4HVp24cDDAw==",
+    "Microsoft.EntityFrameworkCore.Analyzers/6.0.3": {
+      "sha512": "Ld9HyVABYor3Tq43/sG2JERL94UnDHJPg5PwpkCW4CWsf/CbxHetdecv+bCXA/Hg4q+44sov0GVl4Ywjk4PnyA==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.analyzers/6.0.1",
+      "path": "microsoft.entityframeworkcore.analyzers/6.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
         "lib/netstandard2.0/_._",
-        "microsoft.entityframeworkcore.analyzers.6.0.1.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.6.0.3.nupkg.sha512",
         "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.InMemory/6.0.3": {
+      "sha512": "4LX3OTfSQYUYGASDYcpSfI8zXSb5ycGkCqRuaUK4emXAdq98ebOOBBTqwl9VCTZjZiBpiMaUPRO1GQg4FrybGA==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.inmemory/6.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.xml",
+        "microsoft.entityframeworkcore.inmemory.6.0.3.nupkg.sha512",
+        "microsoft.entityframeworkcore.inmemory.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore.Relational/6.0.1": {
@@ -2461,10 +2591,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "Microsoft.Extensions.Caching.Memory/6.0.0": {
-      "sha512": "Ve3BlCzhAlVp5IgO3+8dacAhZk1A0GlIlFNkAcfR2TfAibLKWIt5DhVJZfu4YtW+XZ89OjYf/agMcgjDtPxdGA==",
+    "Microsoft.Extensions.Caching.Memory/6.0.1": {
+      "sha512": "B4y+Cev05eMcjf1na0v9gza6GUtahXbtY1JCypIgx3B4Ea/KAgsWyXEmW4q6zMbmTMtKzmPVk09rvFJirvMwTg==",
       "type": "package",
-      "path": "microsoft.extensions.caching.memory/6.0.0",
+      "path": "microsoft.extensions.caching.memory/6.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -2475,7 +2605,7 @@
         "lib/net461/Microsoft.Extensions.Caching.Memory.xml",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.dll",
         "lib/netstandard2.0/Microsoft.Extensions.Caching.Memory.xml",
-        "microsoft.extensions.caching.memory.6.0.0.nupkg.sha512",
+        "microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",
         "microsoft.extensions.caching.memory.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -2944,27 +3074,6 @@
         "ref/xamarinmac20/_._",
         "ref/xamarintvos10/_._",
         "ref/xamarinwatchos10/_._"
-      ]
-    },
-    "Moq/4.20.70": {
-      "sha512": "4rNnAwdpXJBuxqrOCzCyICXHSImOTRktCgCWXWykuF1qwoIsVvEnR7PjbMk/eLOxWvhmj5Kwt+kDV3RGUYcNwg==",
-      "type": "package",
-      "path": "moq/4.20.70",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "icon.png",
-        "lib/net462/Moq.dll",
-        "lib/net462/Moq.xml",
-        "lib/net6.0/Moq.dll",
-        "lib/net6.0/Moq.xml",
-        "lib/netstandard2.0/Moq.dll",
-        "lib/netstandard2.0/Moq.xml",
-        "lib/netstandard2.1/Moq.dll",
-        "lib/netstandard2.1/Moq.xml",
-        "moq.4.20.70.nupkg.sha512",
-        "moq.nuspec",
-        "readme.md"
       ]
     },
     "NETStandard.Library/1.6.1": {
@@ -3594,6 +3703,27 @@
         "system.collections.immutable.6.0.0.nupkg.sha512",
         "system.collections.immutable.nuspec",
         "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Configuration.ConfigurationManager/4.4.0": {
+      "sha512": "gWwQv/Ug1qWJmHCmN17nAbxJYmQBM/E94QxKLksvUiiKB1Ld3Sc/eK1lgmbSjDFxkQhVuayI/cGFZhpBSodLrg==",
+      "type": "package",
+      "path": "system.configuration.configurationmanager/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Configuration.ConfigurationManager.dll",
+        "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "ref/net461/System.Configuration.ConfigurationManager.dll",
+        "ref/net461/System.Configuration.ConfigurationManager.xml",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.dll",
+        "ref/netstandard2.0/System.Configuration.ConfigurationManager.xml",
+        "system.configuration.configurationmanager.4.4.0.nupkg.sha512",
+        "system.configuration.configurationmanager.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
       ]
     },
     "System.Console/4.3.0": {
@@ -5806,6 +5936,47 @@
         "system.security.cryptography.primitives.nuspec"
       ]
     },
+    "System.Security.Cryptography.ProtectedData/4.4.0": {
+      "sha512": "cJV7ScGW7EhatRsjehfvvYVBvtiSMKgN8bOVI0bQhnF5bU7vnHVIsH49Kva7i7GWaWYvmEzkYVk1TC+gZYBEog==",
+      "type": "package",
+      "path": "system.security.cryptography.protecteddata/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Security.Cryptography.ProtectedData.dll",
+        "lib/net461/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net46/System.Security.Cryptography.ProtectedData.dll",
+        "ref/net461/System.Security.Cryptography.ProtectedData.dll",
+        "ref/net461/System.Security.Cryptography.ProtectedData.xml",
+        "ref/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "ref/netstandard2.0/System.Security.Cryptography.ProtectedData.xml",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/win/lib/net46/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/net461/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/netstandard1.3/System.Security.Cryptography.ProtectedData.dll",
+        "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll",
+        "system.security.cryptography.protecteddata.4.4.0.nupkg.sha512",
+        "system.security.cryptography.protecteddata.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "System.Security.Cryptography.X509Certificates/4.3.0": {
       "sha512": "t2Tmu6Y2NtJ2um0RtcuhP7ZdNNxXEgUm2JeoA/0NvlMjAhKCnM1NX07TDl3244mVp3QU6LPEhT3HTtH1uF7IYw==",
       "type": "package",
@@ -6608,8 +6779,13 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "FakeItEasy >= 8.2.0",
+      "FluentAssertions >= 6.12.0",
+      "Microsoft.EntityFrameworkCore.InMemory >= 6.0.3",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
-      "Moq >= 4.20.70",
+      "Pivoteka.DataAccess.PostgreSQL >= 1.0.0",
+      "Pivoteka.Repositories >= 1.0.0",
+      "Pivoteka.Repositories.PostgreSQL >= 1.0.0",
       "PivotekaWebApi >= 1.0.0",
       "coverlet.collector >= 3.2.0",
       "xunit >= 2.4.2",
@@ -6649,6 +6825,15 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.DataAccess.PostgreSQL\\Pivoteka.DataAccess.PostgreSQL.csproj": {
+              "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.DataAccess.PostgreSQL\\Pivoteka.DataAccess.PostgreSQL.csproj"
+            },
+            "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories.PostgreSQL\\Pivoteka.Repositories.PostgreSQL.csproj": {
+              "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories.PostgreSQL\\Pivoteka.Repositories.PostgreSQL.csproj"
+            },
+            "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories\\Pivoteka.Repositories.csproj": {
+              "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories\\Pivoteka.Repositories.csproj"
+            },
             "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\PivotekaWebApi\\PivotekaWebApi.csproj": {
               "projectPath": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\PivotekaWebApi\\PivotekaWebApi.csproj"
             }
@@ -6665,13 +6850,21 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "FakeItEasy": {
+            "target": "Package",
+            "version": "[8.2.0, )"
+          },
+          "FluentAssertions": {
+            "target": "Package",
+            "version": "[6.12.0, )"
+          },
+          "Microsoft.EntityFrameworkCore.InMemory": {
+            "target": "Package",
+            "version": "[6.0.3, )"
+          },
           "Microsoft.NET.Test.Sdk": {
             "target": "Package",
             "version": "[17.5.0, )"
-          },
-          "Moq": {
-            "target": "Package",
-            "version": "[4.20.70, )"
           },
           "coverlet.collector": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

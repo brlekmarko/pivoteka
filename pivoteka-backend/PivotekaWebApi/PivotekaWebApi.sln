@@ -13,9 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pivoteka.DataAccess.Postgre
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pivoteka.Commons", "..\Pivoteka.Commons\Pivoteka.Commons.csproj", "{C5B0218D-3645-42D7-BDCF-9DFD5547EDF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pivoteka.Repositories.PostgreSQL.UnitTests", "..\Pivoteka.Repositories.PostgreSQL.UnitTests\Pivoteka.Repositories.PostgreSQL.UnitTests.csproj", "{B1931F6E-9EDB-437A-AD7D-8B46F0F0E581}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pivoteka.Repositories.PostgreSQL.UnitTests", "..\Pivoteka.Repositories.PostgreSQL.UnitTests\Pivoteka.Repositories.PostgreSQL.UnitTests.csproj", "{B1931F6E-9EDB-437A-AD7D-8B46F0F0E581}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PivotekaWebApi.UnitTests", "..\PivotekaWebApi.UnitTests\PivotekaWebApi.UnitTests.csproj", "{9399328F-0DED-4D32-A718-5F8DC2ACFCA5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PivotekaWebApi.UnitTests", "..\PivotekaWebApi.UnitTests\PivotekaWebApi.UnitTests.csproj", "{80CA53E8-B011-4FA5-9285-A2B6C1D1C8BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{B1931F6E-9EDB-437A-AD7D-8B46F0F0E581}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B1931F6E-9EDB-437A-AD7D-8B46F0F0E581}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B1931F6E-9EDB-437A-AD7D-8B46F0F0E581}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9399328F-0DED-4D32-A718-5F8DC2ACFCA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9399328F-0DED-4D32-A718-5F8DC2ACFCA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9399328F-0DED-4D32-A718-5F8DC2ACFCA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9399328F-0DED-4D32-A718-5F8DC2ACFCA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80CA53E8-B011-4FA5-9285-A2B6C1D1C8BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80CA53E8-B011-4FA5-9285-A2B6C1D1C8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80CA53E8-B011-4FA5-9285-A2B6C1D1C8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80CA53E8-B011-4FA5-9285-A2B6C1D1C8BD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
