@@ -1,0 +1,7 @@
+{
+  "Pivoteka.Commons, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Commons",
+  "Pivoteka.DataAccess.PostgreSQL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.DataAccess.PostgreSQL",
+  "Pivoteka.Repositories, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories",
+  "Pivoteka.Repositories.PostgreSQL, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\Pivoteka.Repositories.PostgreSQL",
+  "PivotekaWebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "C:\\faks_repos\\INFSUS\\pivoteka\\pivoteka-backend\\PivotekaWebApi"
+}

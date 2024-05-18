@@ -15,6 +15,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pivoteka.Commons", "..\Pivo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PivotekaWebApi.UnitTests", "..\PivotekaWebApi.UnitTests\PivotekaWebApi.UnitTests.csproj", "{80CA53E8-B011-4FA5-9285-A2B6C1D1C8BD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PivotekaWebApi.IntegrationTests", "..\PivotekaWebApi.IntegrationTests\PivotekaWebApi.IntegrationTests.csproj", "{6B918A91-8E0E-493D-8324-6DD0C30A15E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{80CA53E8-B011-4FA5-9285-A2B6C1D1C8BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80CA53E8-B011-4FA5-9285-A2B6C1D1C8BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80CA53E8-B011-4FA5-9285-A2B6C1D1C8BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B918A91-8E0E-493D-8324-6DD0C30A15E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B918A91-8E0E-493D-8324-6DD0C30A15E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B918A91-8E0E-493D-8324-6DD0C30A15E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B918A91-8E0E-493D-8324-6DD0C30A15E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
